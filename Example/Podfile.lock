@@ -1,0 +1,65 @@
+PODS:
+  - KSRouterHelpToolModule (1.0.0.0)
+  - KSUI (2.0.0.16):
+    - KSUI/KSActionSheet (= 2.0.0.16)
+    - KSUI/KSCircleProgressView (= 2.0.0.16)
+    - KSUI/KSPageView (= 2.0.0.16)
+    - KSUI/KSVisualizedIPView (= 2.0.0.16)
+    - KSUI/UKSAlertView (= 2.0.0.16)
+    - KSUI/UKSFlowLayout (= 2.0.0.16)
+    - KSUI/UKSHUD (= 2.0.0.16)
+    - KSUI/UKSHudView (= 2.0.0.16)
+    - KSUI/UKSHudViewController (= 2.0.0.16)
+    - KSUI/UKSPickerView (= 2.0.0.16)
+    - KSUI/UKSSliderView (= 2.0.0.16)
+    - KSUI/UKSToast (= 2.0.0.16)
+  - KSUI/KSActionSheet (2.0.0.16):
+    - Masonry
+  - KSUI/KSCircleProgressView (2.0.0.16)
+  - KSUI/KSPageView (2.0.0.16)
+  - KSUI/KSVisualizedIPView (2.0.0.16)
+  - KSUI/UKSAlertView (2.0.0.16)
+  - KSUI/UKSFlowLayout (2.0.0.16)
+  - KSUI/UKSHUD (2.0.0.16):
+    - PKHUD (~> 5.3.0)
+  - KSUI/UKSHudView (2.0.0.16):
+    - KSRouterHelpToolModule
+  - KSUI/UKSHudViewController (2.0.0.16):
+    - KSRouterHelpToolModule
+  - KSUI/UKSPickerView (2.0.0.16):
+    - SnapKit
+  - KSUI/UKSSliderView (2.0.0.16)
+  - KSUI/UKSToast (2.0.0.16):
+    - Toast-Swift
+  - Masonry (1.1.0)
+  - PKHUD (5.3.0)
+  - SnapKit (4.2.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - KSUI (from `../`)
+
+SPEC REPOS:
+  http://gitlab.devops.kaishustory.com/ios/KSPrivateCocoaPods.git:
+    - KSRouterHelpToolModule
+  http://gitlab.devops.kaishustory.com/ios/KSThirdPartCocoaPods.git:
+    - Masonry
+    - PKHUD
+    - SnapKit
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  KSUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KSRouterHelpToolModule: 7ce4fa03f054784f4956533e1206bf85153d8525
+  KSUI: 46e03dc55592882af7ccbb57ad2e9970206f191d
+  Masonry: c313d4dd240641f9fd7d0c7832decca17650a98e
+  PKHUD: 881c721a7c3160952eca6c65b00e93358d57606f
+  SnapKit: f79c9df4076e8afd0f7e82ee67e1a8ff927deced
+  Toast-Swift: c6c4cd1da43c8c97134d1f25ff988cc6f48a6546
+
+PODFILE CHECKSUM: 03bc9db722eb9e8499a126e40417f3d210c3a929
+
+COCOAPODS: 1.10.0
